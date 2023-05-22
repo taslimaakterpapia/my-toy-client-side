@@ -15,7 +15,7 @@ const Toys = () => {
   <h1 className="text-center text-5xl  mb-5 text-blue-700 py-10 underline">Toy Cars category</h1>
   <div className="flex w-full justify-center mb-4 ">
     <button style={{width:'300px'}} onClick={() => setActive("Sports Car")} className="button mx-1 w-full bg-blue-700 hover:bg-blue-500 text-white font-semibold rounded-lg">Sports Car</button>
-    <button style={{width:'300px'}} onClick={() => setActive("Fire Truck")} className="button mx-1 w-full sm:w-auto sm:mx-3 bg-blue-700 hover:bg-blue-500 text-white font-semibold rounded-lg">Fire Truck</button>
+    <button style={{width:'300px'}} onClick={() => setActive("Fire Truck")} className="button mx-1 w-full sm:w-auto sm:mx-3 bg-blue-700 hover:bg-blue-500 text-white font-semibold rounded-lg"></button>
     <button style={{width:'300px'}} onClick={() => setActive("Police Car")} className="button mx-1 w-full sm:w-auto sm:mx-3 bg-blue-700 hover:bg-blue-500 text-white font-semibold rounded-lg">Police Car</button>
   </div>
 
