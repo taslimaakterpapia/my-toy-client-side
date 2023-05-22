@@ -1,0 +1,34 @@
+img{
+    size: 100hv;
+}
+
+h1{
+    font-family: 'Mogra', cursive;
+    color: rgb(29, 113, 231);
+ 
+
+    
+}
+
+p{
+    margin-right:40px;
+    color: darkgreen;
+}
+
+h4{
+    
+
+    font-family: 'Mogra', cursive;
+}
+
+.second-section{
+    margin-top: 40px;
+    /* font-family: 'Mogra', cursive; */
+    
+}
+
+.gallery{
+   padding-right: 40px;
+   padding-left: 15px;
+}
+
