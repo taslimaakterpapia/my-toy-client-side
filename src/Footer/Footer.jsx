@@ -15,7 +15,7 @@ const Footer = () => {
           <div>
             <h1 className="font-bold mb-2 text-4xl text-white">Service</h1>
             <div className='text-lg text-white font-semibold'>
-            <a className="link link-hover">Branding</a> <br />
+            <a className="link link-hover"></a> <br />
             <a className="link link-hover">Design</a> <br />
             <a className="link link-hover">Marketing</a> <br />
             <a className="link link-hover">Advertisement</a>
