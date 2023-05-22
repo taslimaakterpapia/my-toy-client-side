@@ -52,7 +52,7 @@ const AddToy = () => {
       <select className="input input-white " {...register("category")}>
         <option value="Sports Car">Sports Car</option>
         <option value="Fire Truck">Fire Truck</option>
-        <option value="Police Car"></option>
+        <option value="Police Car">Police Car</option>
       </select>
       <hr />
     </div>
