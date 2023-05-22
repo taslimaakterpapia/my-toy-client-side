@@ -33,7 +33,7 @@ const Footer = () => {
             <p className='text-lg text-white font-semibold'>
               Phone: 123-456-7890<br />
               Email: mytoys@gmail.com<br />
-              Address: 
+              Address: Dhaka Bangladesh
             </p>
           </div>
 
