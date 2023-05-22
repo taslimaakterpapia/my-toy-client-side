@@ -86,7 +86,7 @@ const Blog = () => {
                         <p className="text-black font-semibold text-lg mt-6">
 
 
-                            In MongoDB, the aggregate function is used to perform advanced data processing and analysis operations on collections of documents. It allows you to process and transform data using a pipeline of stages, applying various operations and transformations to the documents. <br /> <br />
+                           the aggregate function is used to perform advanced data processing and analysis operations on collections of documents. It allows you to process and transform data using a pipeline of stages, applying various operations and transformations to the documents. <br /> <br />
 
                             The aggregate function takes an array of stages as its argument. Each stage represents a specific operation to be performed on the documents. The stages are executed sequentially, and the output of one stage becomes the input for the next stage in the pipeline. <br /> <br />
 
