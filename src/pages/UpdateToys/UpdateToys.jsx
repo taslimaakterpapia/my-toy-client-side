@@ -11,7 +11,7 @@ const UpdateToys = () => {
     const { user } = useContext(AuthContext);
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch(`http://localhost:5000/alltoys/${_id}`, {
+        fetch(`https://assignment-11-server-sage.vercel.app/alltoys/${_id}`, {
             method: "PUT",
             headers: {
                 "content-Type": "application/json",

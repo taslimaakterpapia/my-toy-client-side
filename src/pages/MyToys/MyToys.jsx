@@ -8,7 +8,7 @@ const MyToys = () => {
     const { user } = useContext(AuthContext);
     const [toys, setToys] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/mytoys/${user?.email}`)
+        fetch(`https://assignment-11-server-sage.vercel.app/mytoys/${user?.email}`)
             .then(res => res.json())
             .then(data => setToys(data))
     }, [user])
@@ -17,7 +17,7 @@ const MyToys = () => {
         //console.log("deleted")
         const proceed = confirm("Are you sure you want to delete");
         if (proceed) {
-            fetch(`http://localhost:5000/mytoys/${id}`, {
+            fetch(`https://assignment-11-server-sage.vercel.app/mytoys/${id}`, {
                 method: "DELETE"
             })
                 .then(res => res.json())

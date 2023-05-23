@@ -1,6 +1,21 @@
 import React from 'react';
 import './Banner.css';
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Mogra&family=Open+Sans&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet"></link>
+import image1 from '../../../image/car1.jpg';
+import image2 from '../../../image/car2.jpg';
+import image3 from '../../../image/car3.jpg';
+import image4 from '../../../image/car4.jpg';
+import image5 from '../../../image/car5.jpg';
+import image6 from '../../../image/car6.jpg';
+import image7 from '../../../image/car7.jpg';
+import image8 from '../../../image/car8.jpg';
+import image9 from '../../../image/car9.jpg';
+import image10 from '../../../image/car10.jpg';
+import image11 from '../../../image/delivery.png';
+import image12 from '../../../image/doller.png';
+import image13 from '../../../image/girl.png';
+import image18 from '../../../image/header.png';
+
 
 
 const Banner = () => {
@@ -17,7 +32,7 @@ const Banner = () => {
 
                     <div>
 
-                        <img src="image/header.png" className="img-fluid" alt="" />
+                        <img src={image18} className="img-fluid" alt="" />
 
                     </div>
 
@@ -42,7 +57,7 @@ const Banner = () => {
 
                     <div className="flex items-center text-white gap-3" >
                         <div>
-                            <img src="image/delivery.png" alt="" />
+                            <img src={image11} alt="" />
                         </div>
                         <div>
                             <h4 className='text-2xl'>Free Shipping Worldwide</h4>
@@ -53,7 +68,7 @@ const Banner = () => {
 
                     <div className="flex items-center  text-white" >
                         <div>
-                            <img src="image/doller.png" alt="" />
+                            <img src={image12} alt="" />
                         </div>
                         <div>
                             <h4 className='text-2xl'>Cash On Delivery</h4>
@@ -65,7 +80,7 @@ const Banner = () => {
 
                     <div className="flex items-center  text-white " >
                         <div>
-                            <img src="image/girl.png" alt="" />
+                            <img src={image13} alt="" />
                         </div>
                         <div>
                             <h4 className='text-2xl'>24/7 Customer Service</h4>
@@ -92,13 +107,13 @@ const Banner = () => {
                     <div className="mt-10 ml-5">
                         <div className="flex  mx-2">
 
-                            <img className="gallery" src="image/car1.jpg" alt="" />
-                            <img className="gallery" src="image/car2.jpg" alt="" />
+                            <img className="gallery" src={image1} alt="" />
+                            <img className="gallery" src={image2} alt="" />
 
 
-                            <img className="gallery" src="image/car3.jpg" alt="" />
-                            <img className="gallery" src="image/car4.jpg" alt="" />
-                            <img className="gallery" src="image/car5.jpg" alt="" />
+                            <img className="gallery" src={image3} alt="" />
+                            <img className="gallery" src={image4} alt="" />
+                            <img className="gallery" src={image5} alt="" />
 
 
 
@@ -106,11 +121,11 @@ const Banner = () => {
                         </div>
 
                         <div className="flex mx-2 my-5">
-                            <img className="gallery" src="image/car6.jpg" alt="" />
-                            <img className="gallery" src="image/car7.jpg" alt="" />
-                            <img className="gallery" src="image/car8.jpg" alt="" />
-                            <img className="gallery" src="image/car9.jpg" alt="" />
-                            <img className="gallery" src="image/car10.jpg" alt="" />
+                            <img className="gallery" src={image6} alt="" />
+                            <img className="gallery" src={image7} alt="" />
+                            <img className="gallery" src={image8} alt="" />
+                            <img className="gallery" src={image9} alt="" />
+                            <img className="gallery" src={image10} alt="" />
                         </div>
                     </div>
                     <hr />

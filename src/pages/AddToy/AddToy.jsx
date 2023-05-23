@@ -6,7 +6,7 @@ const AddToy = () => {
     const { user } = useContext(AuthContext);
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/addtoy', {
+        fetch('https://assignment-11-server-sage.vercel.app/addtoy', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

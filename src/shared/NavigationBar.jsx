@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../providers/AuthProvider';
+import image16 from '../../image/tiy.png';
 
 const NavigationBar = () => {
     const { user, logOut } = useContext(AuthContext);
@@ -48,7 +49,7 @@ const NavigationBar = () => {
                 </div>
 
                 <Link to="/" className="btn btn-ghost normal-case text-xl ">
-                    <img style={{ width: '200px', height: '50px', borderRadius: '8px' }} src="image/tiy.png" alt="" />
+                    <img style={{ width: '200px', height: '50px', borderRadius: '8px' }} src={image16} alt="" />
                 </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
